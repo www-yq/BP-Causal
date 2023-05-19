@@ -14,3 +14,5 @@ CUDA_VISIBLE_DEVICES=0 python train.py -cfg conf/ours_resnet18_causal_balance.ya
 ## Evaluation
 We put the pretrained model of this method under the checkpoint folder.
 CUDA_VISIBLE_DEVICES=0 python train.py -cfg conf/ours_resnet18_causal_balance.yaml -debug -gpu -eval checkpoint/resnet18_ours_cbam_multi-144-best.pth
+## Acknowledgement
+Part of the code is inspired by [CaaM](https://github.com/Wangt-CN/CaaM), thanks to its authors and the NICO and NICO++ dataset.
