@@ -7,7 +7,7 @@ Pytorch 1.6.0
 matplotlib  
 yaml
 ## Dataset
-You can get this version of NICO from [CaaM](https://github.com/Wangt-CN/CaaM)
+You can get this version of NICO dataset from [CaaM](https://github.com/Wangt-CN/CaaM)
 ## Training
 train the model
 CUDA_VISIBLE_DEVICES=0 python train.py -cfg conf/ours_resnet18_causal_balance.yaml -gpu -name test
