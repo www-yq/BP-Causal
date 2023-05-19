@@ -1,9 +1,9 @@
 exp_name: resnet18_init
 net: resnet18
 dataset: NICO
-image_folder: /mnt/CaaM-main0/0-NICO/NICO/multi_classification
-cxt_dic_path: /mnt/CaaM-main0/0-NICO/Context_name2label.json
-class_dic_path: /mnt/CaaM-main0/0-NICO/Animal_name2label.json
+image_folder: /mnt/NICO/multi_classification
+cxt_dic_path: /mnt/Context_name2label.json
+class_dic_path: /mnt/Animal_name2label.json
 training_opt:
   seed: 0
   batch_size: 128
