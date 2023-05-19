@@ -1,9 +1,9 @@
 exp_name: ours_resnet18_gb
 net: resnet18_ours_cbam_multi
 dataset: NICO
-image_folder: /mnt/CaaM-main1/0-NICO/NICO/multi_classification
-cxt_dic_path: /mnt/CaaM-main1/0-NICO/Context_name2label.json
-class_dic_path: /mnt/CaaM-main1/0-NICO/Animal_name2label.json
+image_folder: /mnt/NICO/multi_classification
+cxt_dic_path: /mnt/Context_name2label.json
+class_dic_path: /mnt/Animal_name2label.json
 training_opt:
   seed: 0
   classes: 10
@@ -43,7 +43,7 @@ variance_opt:
   split_renew: 40
   split_renew_iters: 20
   from_scratch: False
-  ref_model_path: /mnt/CaaM-main1/0-NICO/checkpoint/resnet18/baseline_resnet18/resnet18-118-best.pth
+  ref_model_path: /mnt/checkpoint/resnet18/baseline_resnet18/resnet18-118-best.pth
   penalty_weight: 5e5
   penalty_anneal_iters: 0
   #2 blocks, 4 layers
