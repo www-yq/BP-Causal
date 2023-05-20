@@ -27,4 +27,4 @@ If you find our codes helpful, please cite our paper:
           organization={Springer}
         }
 ## Acknowledgement
-Thanks to its authors of [CaaM](https://github.com/Wangt-CN/CaaM) and the NICO, NICO++ dataset.
+Thanks to the authors of [CaaM](https://github.com/Wangt-CN/CaaM) and the NICO, NICO++ dataset.
