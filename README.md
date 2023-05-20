@@ -2,7 +2,7 @@
 ## Overview
 This project is the official PyTorch implementation for Causal lnference with Sample Balancing for Out-Of-Distribution Detection in Visual Classification [CICAI2022]
 ## Environment
-You can know our environment settings or install directly from the environment.yaml we provide.
+You can see our environment settings or install directly from the environment.yaml we provide.
 
     conda env create -f environment.yaml
 ## Dataset
