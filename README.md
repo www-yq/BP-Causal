@@ -1,10 +1,8 @@
 # BP-Causal
 ## Overview
-This project is the PyTorch implementation for Causal lnference with Sample Balancing for Out-Of-Distribution Detection in Visual Classification [CICAI2022]
+This project is the official PyTorch implementation for Causal lnference with Sample Balancing for Out-Of-Distribution Detection in Visual Classification [CICAI2022]
 ## Environment
-Python 3.6  
-Pytorch 1.6.0  
-Or you can install directly from the environment.yaml we provide.
+You can know our environment settings or install directly from the environment.yaml we provide.
 
     conda env create -f environment.yaml
 ## Dataset
@@ -16,7 +14,7 @@ Train the model.
 ## Evaluation
 We put the pretrained model of this method under the checkpoint folder.  
 
-    CUDA_VISIBLE_DEVICES=0 python train.py -cfg conf/ours_resnet18_causal_balance.yaml -debug -gpu -eval checkpoint/resnet18_ours_cbam_multi-144-best.pth
+    CUDA_VISIBLE_DEVICES=0 python train.py -cfg conf/ours_resnet18_causal_balance.yaml -debug -gpu -eval checkpoint/resnet18_ours_gb_best.pth
 ## BiTex
 If you find our codes helpful, please cite our paper:
 
@@ -29,4 +27,4 @@ If you find our codes helpful, please cite our paper:
           organization={Springer}
         }
 ## Acknowledgement
-Thanks to its authors of [CaaM](https://github.com/Wangt-CN/CaaM) and the NICO and NICO++ dataset.
+Thanks to its authors of [CaaM](https://github.com/Wangt-CN/CaaM) and the NICO, NICO++ dataset.
